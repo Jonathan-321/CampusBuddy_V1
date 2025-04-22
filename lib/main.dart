@@ -50,6 +50,7 @@
 ///
 /// Note: This file should remain focused on app initialization and configuration.
 /// Business logic should be implemented in respective feature modules.
+library;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -213,7 +214,6 @@ class MyApp extends StatelessWidget {
         ),
         // Dark theme configuration
         darkTheme: ThemeData.dark().copyWith(
-          useMaterial3: true,
           primaryColor: Colors.blue,
           scaffoldBackgroundColor: Colors.grey[900],
           appBarTheme: AppBarTheme(
