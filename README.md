@@ -108,4 +108,3 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 ---
 
-*This README was generated with assistance from an AI pair programmer.*
