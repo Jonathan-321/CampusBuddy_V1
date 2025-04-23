@@ -1,0 +1,2 @@
+/Users/jonathanmuhire/Documents/CampusBuddy_V1/android/app/.cxx/Debug/1n1r514o/x86/CMakeFiles/edit_cache.dir
+/Users/jonathanmuhire/Documents/CampusBuddy_V1/android/app/.cxx/Debug/1n1r514o/x86/CMakeFiles/rebuild_cache.dir

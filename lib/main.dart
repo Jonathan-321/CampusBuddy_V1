@@ -64,6 +64,7 @@ import 'domain/usecases/campus_ai_usecases.dart';
 import 'domain/repositories/campus_ai_repository.dart';
 import 'data/repositories/campus_ai_repository_impl.dart';
 import 'data/services/claude_api_service.dart';
+import 'data/services/university_data_service.dart';
 import 'presentation/blocs/auth/auth_bloc.dart';
 import 'presentation/blocs/auth/auth_event.dart';
 import 'presentation/blocs/campus_ai/campus_ai_bloc.dart';
@@ -101,6 +102,17 @@ void main() async {
 
   // Initialize shared preferences for local storage
   final sharedPreferences = await SharedPreferences.getInstance();
+
+  // Initialize university data service - preload data
+  try {
+    final universityData =
+        await UniversityDataService.instance.getUniversityData();
+    debugPrint(
+        'Successfully preloaded university data with ${universityData.keys.length} top-level categories');
+    debugPrint('University data includes: ${universityData.keys.join(', ')}');
+  } catch (e) {
+    debugPrint('Error preloading university data: $e');
+  }
 
   // Create ClaudeApiService for AI chat - using API key from environment variables
   final claudeApiService = ClaudeApiService(

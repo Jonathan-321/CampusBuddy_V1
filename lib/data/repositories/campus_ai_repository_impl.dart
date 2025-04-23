@@ -8,6 +8,7 @@ import '../../domain/repositories/campus_ai_repository.dart';
 import '../../domain/core/failures.dart';
 import '../models/chat_message_model.dart';
 import '../services/claude_api_service.dart';
+import '../services/university_data_service.dart';
 
 class CampusAIRepositoryImpl implements CampusAIRepository {
   final ClaudeApiService _apiService;
@@ -86,10 +87,21 @@ class CampusAIRepositoryImpl implements CampusAIRepository {
         'content': message,
       });
 
-      // Send to Claude API
+      // Load university data to enhance AI responses
+      Map<String, dynamic> universityData;
+      try {
+        universityData =
+            await UniversityDataService.instance.getUniversityData();
+      } catch (e) {
+        debugPrint('Error loading university data: $e');
+        universityData = {};
+      }
+
+      // Send to Claude API with university data
       final response = await _apiService.sendMessage(
         userMessage: message,
         messageHistory: formattedMessages,
+        universityData: universityData,
       );
 
       // Extract the assistant's response

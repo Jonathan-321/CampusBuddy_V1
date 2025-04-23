@@ -1,0 +1,757 @@
+{
+  "universityInfo": {
+    "name": "Oklahoma Christian University",
+    "abbreviation": "OC",
+    "address": "2501 E. Memorial Road, Edmond, OK 73013",
+    "phone": "(405) 425-5000",
+    "email": "info@oc.edu",
+    "website": "https://www.oc.edu",
+    "type": "Private Christian University",
+    "founded": 1950,
+    "motto": "Your Story. God's Purpose.",
+    "campusSize": "200+ acres",
+    "mascot": "Eagles",
+    "colors": ["Maroon", "Gray"],
+    "religiousAffiliation": "Churches of Christ",
+    "accreditation": "Higher Learning Commission"
+  },
+  "keyStats": {
+    "enrollment": 2750,
+    "facultyCount": 91,
+    "studentFacultyRatio": "16:1",
+    "financialAid": "90% of students receive financial aid",
+    "spiritualLifeEvents": "2,000+ events annually"
+  },
+  "admissionsInfo": {
+    "office": {
+      "phone": "(405) 425-5050",
+      "email": "admissions@oc.edu",
+      "website": "https://www.oc.edu/admissions"
+    },
+    "visitOptions": [
+      "Eagle for a Day",
+      "Junior Preview Day",
+      "Campus Tours",
+      "Virtual Tours"
+    ],
+    "applicationDeadlines": {
+      "fall": "August 1",
+      "spring": "December 1",
+      "summer": "May 1"
+    }
+  },
+  "academics": {
+    "collegesAndSchools": [
+      {
+        "name": "College of Bible",
+        "departments": ["Bible", "Missions", "Vocational Ministry"],
+        "contact": {
+          "phone": "(405) 425-5300",
+          "email": "bible@oc.edu"
+        }
+      },
+      {
+        "name": "College of Business",
+        "departments": ["Accounting", "Finance", "Marketing", "Management", "Sports Management"],
+        "contact": {
+          "phone": "(405) 425-5200",
+          "email": "business@oc.edu"
+        }
+      },
+      {
+        "name": "College of Engineering & Computer Science",
+        "departments": ["Computer Science", "Electrical Engineering", "Mechanical Engineering", "Computer Engineering"],
+        "contact": {
+          "phone": "(405) 425-5400",
+          "email": "engineering@oc.edu"
+        }
+      },
+      {
+        "name": "College of Liberal Arts",
+        "departments": ["Communication", "History", "Music", "Political Science", "Criminal Justice", "Language & Literature"],
+        "contact": {
+          "phone": "(405) 425-5500",
+          "email": "liberalarts@oc.edu"
+        }
+      },
+      {
+        "name": "College of Sciences & Education",
+        "departments": ["Biology", "Chemistry", "Mathematics", "Education", "Psychology", "Family Science"],
+        "contact": {
+          "phone": "(405) 425-5700",
+          "email": "sciences@oc.edu"
+        }
+      },
+      {
+        "name": "College of Outreach & Innovation",
+        "departments": ["Online Programs", "Graduate Programs", "Professional Studies"],
+        "contact": {
+          "phone": "(405) 425-1000",
+          "email": "innovation@oc.edu"
+        }
+      }
+    ],
+    "programs": {
+      "undergraduate": 60,
+      "graduate": 15,
+      "certificates": 10
+    },
+    "specialPrograms": [
+      "Honors Program",
+      "Study Abroad",
+      "Vienna Studies"
+    ],
+    "courseOfferings": {
+      "fall2025": [
+        {
+          "courseCode": "COMP 1113",
+          "title": "Computer Applications",
+          "department": "Computer Science",
+          "creditHours": 3,
+          "description": "Introduction to problem solving using spreadsheets, databases, integrated productivity software, and Internet tools.",
+          "sections": [
+            {
+              "sectionNumber": "01",
+              "professor": "Dr. Bob Smith",
+              "schedule": "MWF 9:00-9:50 AM",
+              "location": "Prince Engineering Center 123",
+              "maxEnrollment": 25
+            },
+            {
+              "sectionNumber": "02",
+              "professor": "Dr. Jane Lee",
+              "schedule": "TR 10:00-11:15 AM",
+              "location": "Prince Engineering Center 124",
+              "maxEnrollment": 25
+            }
+          ],
+          "prerequisites": []
+        },
+        {
+          "courseCode": "COMP 1213",
+          "title": "Introduction to Programming",
+          "department": "Computer Science",
+          "creditHours": 3,
+          "description": "Introduction to the discipline of computing, covering algorithm design and development, programming techniques, and basic elements of data structures and object-oriented design using Java.",
+          "sections": [
+            {
+              "sectionNumber": "01",
+              "professor": "Dr. Andy Harbert",
+              "schedule": "MWF 10:00-10:50 AM",
+              "location": "Prince Engineering Center 128",
+              "maxEnrollment": 24
+            }
+          ],
+          "prerequisites": []
+        },
+        {
+          "courseCode": "BIOL 1214",
+          "title": "General Biology I",
+          "department": "Biology",
+          "creditHours": 4,
+          "description": "An introductory course covering the organization of cells, metabolism, genetics, and the physical and chemical properties that govern living systems.",
+          "sections": [
+            {
+              "sectionNumber": "01",
+              "professor": "Dr. Kimberly Merrill",
+              "schedule": "MWF 9:00-9:50 AM",
+              "location": "Herold Science Hall 202",
+              "lab": "W 1:30-4:20 PM",
+              "labLocation": "Herold Science Hall 302",
+              "maxEnrollment": 24
+            },
+            {
+              "sectionNumber": "02",
+              "professor": "Dr. Sarah Edison",
+              "schedule": "TR 11:00-12:15 PM",
+              "location": "Herold Science Hall 203",
+              "lab": "R 1:30-4:20 PM",
+              "labLocation": "Herold Science Hall 302",
+              "maxEnrollment": 24
+            }
+          ],
+          "prerequisites": []
+        },
+        {
+          "courseCode": "ACCT 2113",
+          "title": "Accounting Principles I",
+          "department": "Accounting",
+          "creditHours": 3,
+          "description": "An introduction to the financial accounting process, including analyzing and recording business transactions, measuring business income, and accounting for assets and current liabilities.",
+          "sections": [
+            {
+              "sectionNumber": "01",
+              "professor": "Dr. Elaine Phillips",
+              "schedule": "MWF 11:00-11:50 AM",
+              "location": "Garvey Center 201",
+              "maxEnrollment": 30
+            }
+          ],
+          "prerequisites": []
+        },
+        {
+          "courseCode": "BIBL 1023",
+          "title": "New Testament Survey",
+          "department": "Bible",
+          "creditHours": 3,
+          "description": "A survey of the New Testament, emphasizing the life and teachings of Jesus, the establishment and growth of the church, and the teachings of the epistles and Revelation.",
+          "sections": [
+            {
+              "sectionNumber": "01",
+              "professor": "Dr. John Harrison",
+              "schedule": "MWF 8:00-8:50 AM",
+              "location": "Baugh Auditorium",
+              "maxEnrollment": 120
+            },
+            {
+              "sectionNumber": "02",
+              "professor": "Dr. Charles Rix",
+              "schedule": "TR 9:30-10:45 AM",
+              "location": "Baugh Auditorium",
+              "maxEnrollment": 120
+            },
+            {
+              "sectionNumber": "03",
+              "professor": "Dr. Richard Wright",
+              "schedule": "TR 1:00-2:15 PM",
+              "location": "Garvey Center 301",
+              "maxEnrollment": 30
+            }
+          ],
+          "prerequisites": []
+        }
+      ],
+      "spring2026": [
+        {
+          "courseCode": "COMP 1223",
+          "title": "Data Structures & Algorithms",
+          "department": "Computer Science",
+          "creditHours": 3,
+          "description": "Study of data structures and algorithms, their implementations, and analyses of complexity and performance. Topics include stacks, queues, linked lists, recursion, searching and sorting techniques.",
+          "sections": [
+            {
+              "sectionNumber": "01",
+              "professor": "Dr. Andy Harbert",
+              "schedule": "MWF 11:00-11:50 AM",
+              "location": "Prince Engineering Center 128",
+              "maxEnrollment": 24
+            }
+          ],
+          "prerequisites": ["COMP 1213"]
+        },
+        {
+          "courseCode": "BIOL 1224",
+          "title": "General Biology II",
+          "department": "Biology",
+          "creditHours": 4,
+          "description": "A continuation of BIOL 1214, focusing on the organization of organisms, their diversity, and ecology.",
+          "sections": [
+            {
+              "sectionNumber": "01",
+              "professor": "Dr. Kimberly Merrill",
+              "schedule": "MWF 9:00-9:50 AM",
+              "location": "Herold Science Hall 202",
+              "lab": "W 1:30-4:20 PM",
+              "labLocation": "Herold Science Hall 302",
+              "maxEnrollment": 24
+            }
+          ],
+          "prerequisites": ["BIOL 1214"]
+        },
+        {
+          "courseCode": "ACCT 2213",
+          "title": "Accounting Principles II",
+          "department": "Accounting",
+          "creditHours": 3,
+          "description": "A continuation of ACCT 2113, with emphasis on the corporate structure, long-term liabilities, and the statement of cash flows.",
+          "sections": [
+            {
+              "sectionNumber": "01",
+              "professor": "Dr. Elaine Phillips",
+              "schedule": "MWF 11:00-11:50 AM",
+              "location": "Garvey Center 201",
+              "maxEnrollment": 30
+            }
+          ],
+          "prerequisites": ["ACCT 2113"]
+        },
+        {
+          "courseCode": "BIBL 1223",
+          "title": "Old Testament Survey",
+          "department": "Bible",
+          "creditHours": 3,
+          "description": "A survey of the Old Testament, emphasizing God's covenant relationship with and redemption of his people.",
+          "sections": [
+            {
+              "sectionNumber": "01",
+              "professor": "Dr. John Harrison",
+              "schedule": "MWF 8:00-8:50 AM",
+              "location": "Baugh Auditorium",
+              "maxEnrollment": 120
+            },
+            {
+              "sectionNumber": "02",
+              "professor": "Dr. Charles Rix",
+              "schedule": "TR 9:30-10:45 AM",
+              "location": "Baugh Auditorium",
+              "maxEnrollment": 120
+            }
+          ],
+          "prerequisites": []
+        }
+      ]
+    },
+    "registrationInfo": {
+      "process": "Course registration is conducted through myOC portal (https://my.oc.edu). Students must meet with their academic advisor prior to registration to discuss course selection and receive approval.",
+      "registrationHelp": "For assistance with registration, contact the Registrar's Office at registrar@oc.edu or (405) 425-5206.",
+      "advisingInfo": "Academic advising appointments can be scheduled through the Student Success Center at studentsuccess@oc.edu or (405) 425-5900."
+    }
+  },
+  "importantDates": {
+    "academicCalendar": {
+      "fall2025": {
+        "semesterBegins": "August 21, 2025",
+        "lastDayToAdd": "August 29, 2025",
+        "fallBreak": "October 16-17, 2025",
+        "lastDayToDrop": "November 14, 2025",
+        "thanksgivingBreak": "November 24-28, 2025",
+        "finalExams": "December 8-11, 2025",
+        "commencement": "December 12, 2025"
+      },
+      "spring2026": {
+        "semesterBegins": "January 12, 2026",
+        "lastDayToAdd": "January 17, 2026",
+        "mlkHoliday": "January 20, 2026",
+        "springBreak": "March 16-21, 2026",
+        "lastDayToDrop": "April 11, 2026",
+        "finalExams": "April 27-May 1, 2026",
+        "commencement": "May 2, 2026"
+      }
+    },
+    "registrationDates": {
+      "spring2026": {
+        "graduatingSeniors": "March 31, 2025",
+        "seniors": "April 1-2, 2025",
+        "juniors": "April 3-4, 2025",
+        "sophomores": "April 7-8, 2025",
+        "freshmen": "April 9-10, 2025"
+      },
+      "fall2025": {
+        "graduatingSeniors": "October 27, 2024",
+        "seniors": "October 28, 2024",
+        "juniors": "October 29, 2024",
+        "sophomores": "October 30, 2024",
+        "freshmen": "October 31, 2024"
+      }
+    }
+  },
+  "housing": {
+    "residenceHalls": {
+      "women": [
+        {
+          "name": "Gunn-Henderson Hall",
+          "type": "Standard Dorm",
+          "cost": "$2300 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Freshman", "Sophomore"]
+        },
+        {
+          "name": "Tinius East",
+          "type": "Standard Dorm",
+          "cost": "$2300 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Freshman", "Sophomore"]
+        },
+        {
+          "name": "Tinius West",
+          "type": "Standard Dorm",
+          "cost": "$2300 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Freshman", "Sophomore"]
+        },
+        {
+          "name": "University House South",
+          "type": "Premium Dorm",
+          "cost": "$2900 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Freshman", "Sophomore"]
+        },
+        {
+          "name": "Davisson West",
+          "type": "Premium Dorm",
+          "cost": "$2900 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Freshman", "Sophomore"]
+        }
+      ],
+      "men": [
+        {
+          "name": "Fails Hall",
+          "type": "Standard Dorm",
+          "cost": "$2300 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Freshman", "Sophomore"]
+        },
+        {
+          "name": "Warlick Hall",
+          "type": "Standard Dorm",
+          "cost": "$2300 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Freshman", "Sophomore"]
+        },
+        {
+          "name": "Wilson East",
+          "type": "Standard Dorm",
+          "cost": "$2300 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Freshman", "Sophomore"]
+        },
+        {
+          "name": "Wilson West",
+          "type": "Standard Dorm",
+          "cost": "$2300 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Freshman", "Sophomore"]
+        },
+        {
+          "name": "University House North",
+          "type": "Premium Dorm",
+          "cost": "$2900 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Freshman", "Sophomore"]
+        },
+        {
+          "name": "Davisson East",
+          "type": "Premium Dorm",
+          "cost": "$2900 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Freshman", "Sophomore"]
+        }
+      ]
+    },
+    "apartments": {
+      "women": [
+        {
+          "name": "Phase 4",
+          "type": "Standard Apartment",
+          "cost": "$2500 per semester",
+          "privateRoomAvailable": false,
+          "yearLevels": ["Junior", "Senior"]
+        },
+        {
+          "name": "Phase 5",
+          "type": "Premium Apartment",
+          "cost": "$3500 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Junior", "Senior"]
+        },
+        {
+          "name": "Phase 6B",
+          "type": "Premium Apartment",
+          "cost": "$3500 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Junior", "Senior"]
+        },
+        {
+          "name": "Phase 6C",
+          "type": "Premium Apartment",
+          "cost": "$3500 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Junior", "Senior"]
+        }
+      ],
+      "men": [
+        {
+          "name": "Phase 3",
+          "type": "Standard Apartment",
+          "cost": "$2500 per semester",
+          "privateRoomAvailable": false,
+          "yearLevels": ["Junior", "Senior"]
+        },
+        {
+          "name": "Phase 6A",
+          "type": "Premium Apartment",
+          "cost": "$3500 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Junior", "Senior"]
+        },
+        {
+          "name": "Phase 6B",
+          "type": "Premium Apartment",
+          "cost": "$3500 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Junior", "Senior"]
+        },
+        {
+          "name": "Phase 6D",
+          "type": "Premium Apartment",
+          "cost": "$3500 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Junior", "Senior"]
+        },
+        {
+          "name": "Phase 6E",
+          "type": "Premium Apartment",
+          "cost": "$3500 per semester",
+          "privateRoomCost": "Add $900 per semester",
+          "yearLevels": ["Junior", "Senior"]
+        }
+      ]
+    },
+    "housingOffice": {
+      "name": "Residence Life Office",
+      "phone": "(405) 425-5900",
+      "email": "housing@oc.edu",
+      "director": "Candace Bass",
+      "assistantDirector": "John Ortiz"
+    },
+    "offCampusHousingRequirements": [
+      "Part-time student status (enrolled in 11 hours or fewer)",
+      "Married and/or has dependent children",
+      "Completed 124+ credit hours",
+      "23 years old prior to the beginning of the semester",
+      "Living with parent(s) in their primary, full-time residence"
+    ]
+  },
+  "dining": {
+    "locations": [
+      {
+        "name": "The Branch",
+        "type": "Main Cafeteria",
+        "description": "OC's cafeteria is an all-encompassing, community-oriented place for OC students, faculty, staff and guests to eat.",
+        "features": [
+          "Opened January 2020",
+          "450+ seats",
+          "20+ meal options (not including cereals, desserts or sides)",
+          "Community space for fellowship"
+        ]
+      },
+      {
+        "name": "The Brew",
+        "type": "Coffee Shop",
+        "description": "A coffee shop on the OC campus, brings students, faculty and staff together to share ideas, ideals and life.",
+        "location": "Second floor of the Mabee Learning Center"
+      },
+      {
+        "name": "Aguila Grill",
+        "type": "Fast Food",
+        "acceptsEagleBucks": true
+      },
+      {
+        "name": "Chick-fil-A Express",
+        "type": "Fast Food",
+        "acceptsEagleBucks": true
+      },
+      {
+        "name": "Jimmy John's",
+        "type": "Fast Food",
+        "acceptsEagleBucks": true
+      }
+    ],
+    "mealPlans": {
+      "apartmentPlans": [
+        {
+          "name": "75 meals/semester + 100 Eagle Bucks",
+          "cost": "$870/semester or $1,740/year"
+        },
+        {
+          "name": "75 meals/semester + 200 Eagle Bucks",
+          "cost": "$970/semester or $1,940/year" 
+        },
+        {
+          "name": "75 meals/semester + 400 Eagle Bucks",
+          "cost": "$1,170/semester or $2,340/year"
+        },
+        {
+          "name": "105 meals/semester + 100 Eagle Bucks",
+          "cost": "$1,190/semester or $2,380/year"
+        },
+        {
+          "name": "105 meals/semester + 200 Eagle Bucks",
+          "cost": "$1,290/semester or $2,580/year"
+        },
+        {
+          "name": "105 meals/semester + 400 Eagle Bucks",
+          "cost": "$1,490/semester or $2,980/year"
+        }
+      ],
+      "residenceHallPlans": [
+        {
+          "name": "15 meals/week + 100 Eagle Bucks",
+          "cost": "$2,260/semester or $4,520/year"
+        },
+        {
+          "name": "19 meals/week + 150 Eagle Bucks",
+          "cost": "$2,520/semester or $5,040/year"
+        }
+      ],
+      "eagleBucksInfo": "Students can add Eagle Bucks for on-campus dining at Aguila Grill, Chick-fil-A Express, Jimmy John's, The Brew, and for off-campus use at Alfredo's, OnCue and Sonic. Additional Eagle Bucks can be purchased in $10 increments."
+    }
+  },
+  "campusResources": {
+    "library": {
+      "name": "Tom and Ada Beam Library",
+      "phone": "(405) 425-5312",
+      "email": "askalibrarian@oc.edu",
+      "website": "https://library.oc.edu",
+      "hours": {
+        "sunday": "2:00 pm - 10:00 pm",
+        "monday": "8:00 am - 10:00 pm",
+        "tuesday": "8:00 am - 10:00 pm",
+        "wednesday": "8:00 am - 5:00 pm",
+        "thursday": "8:00 am - 10:00 pm",
+        "friday": "8:00 am - 5:00 pm",
+        "saturday": "Noon - 5:00 pm"
+      },
+      "features": [
+        "Study rooms",
+        "Academic databases",
+        "Research assistance",
+        "Tutoring services"
+      ]
+    },
+    "technology": {
+      "support": {
+        "name": "Support Central / IT",
+        "email": "supportcentral@oc.edu",
+        "website": "https://support.oc.edu"
+      },
+      "platforms": [
+        {
+          "name": "myOC",
+          "description": "Dashboard for accessing class schedules, OC account, and other personal information"
+        },
+        {
+          "name": "Blackboard",
+          "description": "Learning management system for viewing, posting and managing class assignments"
+        },
+        {
+          "name": "Webmail",
+          "description": "Portal to student email address"
+        }
+      ]
+    },
+    "studentSupport": {
+      "studentSuccess": {
+        "description": "Provides tutoring, the Bridge Program, testing and disability services",
+        "website": "https://www.oc.edu/services"
+      },
+      "careerServices": {
+        "description": "Calling & Career Services helps students and alumni identify God's calling for their life and helps them land jobs",
+        "website": "https://www.oc.edu/services"
+      },
+      "counselingCenter": {
+        "description": "Provides confidential individual, couple, family, and group counseling services",
+        "website": "https://www.oc.edu/services"
+      },
+      "healthAndWellness": {
+        "description": "Offers enriching mental health and physical health resources",
+        "website": "https://www.oc.edu/services"
+      }
+    }
+  },
+  "campusSafety": {
+    "police": {
+      "office": "HV-133",
+      "phone": "(405) 425-5500",
+      "email": "occampuspolice@oc.edu"
+    },
+    "buildingAccess": {
+      "residenceHalls": "Locked at 12:00 a.m., opened at 6:00 a.m. each day with access restricted to residents with valid electronic cards",
+      "academicBuildings": "Locked when not in use"
+    },
+    "emergencyProcedures": {
+      "website": "https://www.oc.edu/campus-safety"
+    }
+  },
+  "spiritualLife": {
+    "chapelServices": {
+      "frequency": "Daily chapel services",
+      "requirement": "Required for full-time students"
+    },
+    "ministries": [
+      "Campus Ministry",
+      "Mission Trips",
+      "Spiritual Life Events"
+    ],
+    "churchesNearby": [
+      "Memorial Road Church of Christ",
+      "Edmond Church of Christ",
+      "Quail Springs Church of Christ"
+    ]
+  },
+  "athletics": {
+    "teams": {
+      "men": [
+        "Baseball",
+        "Basketball",
+        "Cross Country",
+        "Golf",
+        "Soccer",
+        "Swimming",
+        "Tennis",
+        "Track & Field"
+      ],
+      "women": [
+        "Basketball",
+        "Cross Country",
+        "Golf",
+        "Soccer",
+        "Softball",
+        "Swimming",
+        "Tennis",
+        "Track & Field",
+        "Volleyball"
+      ]
+    },
+    "facilities": [
+      "Eagles Nest (Basketball and Volleyball Arena)",
+      "Bobby Murcer Indoor Training Facility",
+      "Soccer Field",
+      "Baseball Field",
+      "Softball Field",
+      "Tennis Courts"
+    ],
+    "intramurals": {
+      "sports": [
+        "Basketball",
+        "Flag Football",
+        "Soccer",
+        "Volleyball",
+        "Ultimate Frisbee"
+      ]
+    }
+  },
+  "upcomingEvents": [
+    {
+      "name": "Junior Preview Day",
+      "date": "April 17, 2025",
+      "description": "On April 17, come hang out at Junior Preview Day and see what life as an OC Eagle is all about."
+    },
+    {
+      "name": "Band & Steel Drum Concert",
+      "date": "April 17, 2025",
+      "time": "7:00 pm",
+      "description": "OC Community and friends, come join us at this great small ensemble concert presented by our students!"
+    },
+    {
+      "name": "Spring Band Concert",
+      "date": "April 24, 2025",
+      "time": "7:00 pm"
+    },
+    {
+      "name": "OKC Memorial Marathon",
+      "date": "April 26-27, 2025",
+      "description": "Run a marathon with TeamOC!"
+    },
+    {
+      "name": "Final Exam Week",
+      "date": "April 27 - May 1, 2025"
+    },
+    {
+      "name": "Spring Commencement 2025",
+      "date": "May 2, 2025",
+      "description": "Happy Graduation Day, Eagles!"
+    }
+  ]
+} 
